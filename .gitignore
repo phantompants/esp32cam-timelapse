@@ -1,0 +1,31 @@
+# Arduino IDE build files & outputs
+build/
+*.elf
+*.bin
+*.hex
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code / IDE
+.vscode/.queries/
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+.vscode/tasks.json
+*.swp
+*.tmp
+
+# Python outputs & venv
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+*.mp4
+*.avi
+
+# OS files
+.DS_Store
+Thumbs.db
